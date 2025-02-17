@@ -6,6 +6,7 @@
         { "name": "Ask", "domain": "ask.com", "url": "https://www.ask.com/web?q=%s" },
         { "name": "Baidu", "domain": "baidu.com", "url": "https://www.baidu.com/s?wd=%s" },
         { "name": "Bing", "domain": "bing.com", "url": "https://www.bing.com/search?q=%s" },
+        { "name": "DuckDuckGo", "domain": "duckduckgo.com", "url": "https://duckduckgo.com/?q=%s"},
         { "name": "Google", "domain": "google.com", "url": "https://www.google.com/search?q=%s" },
         { "name": "Qwant", "domain": "qwant.com", "url": "https://www.qwant.com/?q=%s" },
         { "name": "StartPage", "domain": "startpage.com", "url": "https://www.startpage.com/do/search?query=%s" },
@@ -28,7 +29,9 @@
         { "name": "SoundCloud", "domain": "soundcloud.com", "url": "https://soundcloud.com/search?q=%s" },
         { "name": "Spotify", "domain": "spotify.com", "url": "https://open.spotify.com/search/%s" },
         { "name": "Twitch", "domain": "twitch.tv", "url": "https://www.twitch.tv/search?term=%s" },
-        { "name": "Vimeo", "domain": "vimeo.com", "url": "https://vimeo.com/search?q=%s" }
+        { "name": "Vimeo", "domain": "vimeo.com", "url": "https://vimeo.com/search?q=%s" },
+        { "name": "YouTube", "domain": "youtube.com", "url": "https://www.youtube.com/results?search_query=%s"}
+
       ]
     },
     {
@@ -47,7 +50,9 @@
         { "name": "Reddit", "domain": "reddit.com", "url": "https://www.reddit.com/search/?q=%s" },
         { "name": "ResearchGate", "domain": "researchgate.net", "url": "https://www.researchgate.net/search?q=%s" },
         { "name": "StackOverflow", "domain": "stackoverflow.com", "url": "https://stackoverflow.com/search?q=%s" },
-        { "name": "Stanford Encyclopedia", "domain": "plato.stanford.edu", "url": "https://plato.stanford.edu/search/searcher?query=%s" }
+        { "name": "Stanford Encyclopedia", "domain": "plato.stanford.edu", "url": "https://plato.stanford.edu/search/searcher?query=%s" },
+        { "name": "Wikipedia", "domain": "wikipedia.org", "url": "https://en.wikipedia.org/w/index.php?search=%s" }
+
       ]
     },
     {
@@ -57,6 +62,7 @@
         { "name": "Amazon", "domain": "amazon.com", "url": "https://www.amazon.com/s?k=%s" },
         { "name": "Best Buy", "domain": "bestbuy.com", "url": "https://www.bestbuy.com/site/searchpage.jsp?st=%s" },
         { "name": "Costco", "domain": "costco.com", "url": "https://www.costco.com/CatalogSearch?keyword=%s" },
+        { "name": "eBay", "domain": "ebay.com", "url": "https://www.ebay.com/sch/i.html?_nkw=%s" },
         { "name": "Etsy", "domain": "etsy.com", "url": "https://www.etsy.com/search?q=%s" },
         { "name": "Home Depot", "domain": "homedepot.com", "url": "https://www.homedepot.com/s/%s" },
         { "name": "IKEA", "domain": "ikea.com", "url": "https://www.ikea.com/us/en/search/?query=%s" },
@@ -72,9 +78,11 @@
     {
       "name": "Social",
       "items": [
+        { "name": "Bluesky", "domain": "bsky.app", "url": "https://bsky.app/search?q=%s" },
         { "name": "Facebook", "domain": "facebook.com", "url": "https://www.facebook.com/search/top/?q=%s" },
         { "name": "Foursquare", "domain": "foursquare.com", "url": "https://foursquare.com/explore?q=%s" },
         { "name": "Instagram", "domain": "instagram.com", "url": "https://www.instagram.com/explore/tags/%s" },
+        { "name": "LinkedIn", "domain": "linkedin.com", "url": "https://www.linkedin.com/search/results/all/?keywords=%s" },
         { "name": "Mastodon", "domain": "mastodon.social", "url": "https://mastodon.social/search?q=%s" },
         { "name": "Nextdoor", "domain": "nextdoor.com", "url": "https://nextdoor.com/search/?q=%s" },
         { "name": "Pinterest", "domain": "pinterest.com", "url": "https://www.pinterest.com/search/pins/?q=%s" },
