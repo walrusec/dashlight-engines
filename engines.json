@@ -68,7 +68,7 @@
         { "name": "Newegg", "domain": "newegg.com", "url": "https://www.newegg.com/p/pl?d=%s" },
         { "name": "Overstock", "domain": "overstock.com", "url": "https://www.overstock.com/search?keywords=%s" },
         { "name": "Walmart", "domain": "walmart.com", "url": "https://www.walmart.com/search/?query=%s" },
-        { "name": "Wayfair", "domain": "wayfair.com", "url": "https://www.wayfair.com/keyword.php?keyword=%s" },
+        { "name": "Wayfair", "domain": "wayfair.com", "url": "https://www.wayfair.com/keyword.php?keyword=%s" }
       ]
     },
     {
